@@ -41,8 +41,8 @@ This project uses the **WireGuard VPN protocol**, which internally provides:
 ⚠️ **Note:**  
 The cryptographic algorithms are **provided by WireGuard**. This project does **not implement encryption algorithms manually**, but configures and uses them securely.
 
----
 
+📁 Project Structure
 secure-wireguard-vpn/
 │
 ├── setup-phone-vpn.sh
