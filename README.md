@@ -42,45 +42,46 @@ This project uses the **WireGuard VPN protocol**, which internally provides:
 The cryptographic algorithms are **provided by WireGuard**. This project does **not implement encryption algorithms manually**, but configures and uses them securely.
 
 
-📁 Project Structure
+## 📁 Project Structure
+
+```text
 secure-wireguard-vpn/
 │
 ├── setup-phone-vpn.sh
-│   └─ Shell script to configure WireGuard server,
-│      generate keys, start VPN, and display QR code
+│   └── Shell script to configure WireGuard server, generate keys,
+│       start VPN, and display QR code
 │
 ├── simple_vpn.sh
-│   └─ Minimal VPN setup script for quick testing
+│   └── Minimal VPN setup script for quick testing
 │
 ├── vpn-lab.py
-│   └─ Python-based helper/CLI for managing VPN namespaces
+│   └── Python-based helper/CLI for managing VPN operations
 │
 ├── config/
-│   └─ WireGuard configuration files (wg0.conf, client configs)
+│   └── WireGuard configuration files (wg0.conf, client configs)
 │
 ├── keys/
-│   └─ Server-side WireGuard keys (demo / regenerated keys)
+│   └── Server-side WireGuard keys (demo / regenerated keys)
 │
 ├── phone-keys/
-│   └─ Client (mobile) WireGuard keys
+│   └── Client (mobile) WireGuard keys
 │
 ├── docs/
-│   └─ Project documentation and tutorial files
+│   └── Project documentation and tutorials
 │
 ├── src/
-│   └─ Source code related to VPN logic and automation
+│   └── Source code for VPN automation and helpers
 │
 ├── tests/
-│   └─ Test scripts and validation files
+│   └── Test scripts and validation files
 │
 ├── venv/
-│   └─ Python virtual environment (if Python tools are used)
+│   └── Python virtual environment
 │
 └── README.md
-    └─ Project overview, setup instructions, and explanation
+    └── Project documentation
+```
 
-
----
 
 ## ▶️ How to Run the Project
 
