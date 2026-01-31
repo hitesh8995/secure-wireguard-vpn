@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# WireGuard keys & configs
+*.key
+*.priv
+*.pub
+phone.conf
+phone-vpn.png
+/etc/wireguard/
+config/*.conf
+keys/
+phone-keys/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
