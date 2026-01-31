@@ -43,22 +43,41 @@ The cryptographic algorithms are **provided by WireGuard**. This project does **
 
 ---
 
-## 🧱 Project Structure
-
-vpn-lab/
+secure-wireguard-vpn/
 │
-├── setup-phone-vpn.sh # Main script to setup VPN and generate QR code
-├── simple_vpn.sh # Simplified VPN setup script
-├── vpn-lab.py # Python-based helper / controller
+├── setup-phone-vpn.sh
+│   └─ Shell script to configure WireGuard server,
+│      generate keys, start VPN, and display QR code
 │
-├── config/ # VPN configuration files
-├── keys/ # Server keys
-├── phone-keys/ # Client (phone) keys
+├── simple_vpn.sh
+│   └─ Minimal VPN setup script for quick testing
 │
-├── docs/ # Documentation
-├── src/ # Source code
-├── tests/ # Test files
-└── README.md # Project documentation
+├── vpn-lab.py
+│   └─ Python-based helper/CLI for managing VPN namespaces
+│
+├── config/
+│   └─ WireGuard configuration files (wg0.conf, client configs)
+│
+├── keys/
+│   └─ Server-side WireGuard keys (demo / regenerated keys)
+│
+├── phone-keys/
+│   └─ Client (mobile) WireGuard keys
+│
+├── docs/
+│   └─ Project documentation and tutorial files
+│
+├── src/
+│   └─ Source code related to VPN logic and automation
+│
+├── tests/
+│   └─ Test scripts and validation files
+│
+├── venv/
+│   └─ Python virtual environment (if Python tools are used)
+│
+└── README.md
+    └─ Project overview, setup instructions, and explanation
 
 
 ---
