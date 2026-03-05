@@ -12,7 +12,7 @@ This project focuses on **VPN setup, routing, firewall configuration, cloud depl
 - Enabled **encrypted communication** between client and server
 - Verified encrypted traffic using **tcpdump / Wireshark**
 - Supported **mobile clients** via QR-code based configuration
-- Tested on **local systems and cloud environments**
+- Tested on **local systems**
 - Designed for **academic and learning purposes**
 
 ---
@@ -23,7 +23,6 @@ This project focuses on **VPN setup, routing, firewall configuration, cloud depl
 - Secure tunneling using modern cryptography
 - IP forwarding and NAT configuration
 - Firewall rule management using `iptables`
-- Cloud-based VPN deployment concepts
 - Packet-level verification of encryption
 
 ---
@@ -169,14 +168,3 @@ Hitesh Choudhary
 📜 Disclaimer
 
 This project is intended for educational and learning purposes only.
-
-
----
-
-### ✅ What you should do now
-1. Save this as `README.md`
-2. Commit and push:
-```bash
-git add README.md
-git commit -m "Add project README"
-git push
